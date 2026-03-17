@@ -497,7 +497,6 @@ function Footer() {
               <li><a href="/terms-and-conditions" className="text-white/60 hover:text-accent-green text-sm transition-colors">Terms & Conditions</a></li>
               <li><a href="#contact" className="text-white/60 hover:text-accent-green text-sm transition-colors">Contact Us</a></li>
             </ul>
-            </ul>
           </div>
         </div>
         <div className="border-t border-white/10 pt-6 text-center">
