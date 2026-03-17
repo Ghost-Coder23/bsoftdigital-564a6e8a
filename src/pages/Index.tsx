@@ -218,8 +218,8 @@ function Services() {
    PRICING
    ═══════════════════════════════════════════ */
 const plans = [
-  { name: "Starter", price: "$299", period: "one-time", desc: "Perfect for small businesses getting started online", features: ["5-Page Website", "Mobile Responsive", "Basic SEO Setup", "Contact Form", "1 Month Support"], cta: "Get Started", popular: false },
-  { name: "Professional", price: "$799", period: "one-time", desc: "Ideal for growing businesses needing more features", features: ["Up to 15 Pages", "E-Commerce Ready", "Advanced SEO", "Custom Animations", "Payment Integration", "3 Months Support"], cta: "Get Started", popular: true },
+  { name: "Starter", price: "$60", period: "one-time", desc: "Perfect for small businesses getting started online", features: ["5-Page Website", "Mobile Responsive", "Basic SEO Setup", "Contact Form", "1 Month Support"], cta: "Get Started", popular: false },
+  { name: "Professional", price: "$100", period: "one-time", desc: "Ideal for growing businesses needing more features", features: ["Up to 15 Pages", "E-Commerce Ready", "Advanced SEO", "Custom Animations", "Payment Integration", "3 Months Support"], cta: "Get Started", popular: true },
   { name: "Enterprise", price: "Custom", period: "pricing", desc: "Full-scale digital solutions for large organisations", features: ["Unlimited Pages", "Custom Web App", "Mobile App Included", "Priority Support", "Monthly Maintenance", "Dedicated Team"], cta: "Contact Us", popular: false },
 ];
 
@@ -270,7 +270,7 @@ function Pricing() {
    ═══════════════════════════════════════════ */
 const projects = [
   { image: "portfolio1ecommerse.png", title: "SuperRutanz E-Commerce", desc: "Full-stack e-commerce platform with payment integration and inventory management.", tag: "Web Development" },
-  { image: "mobilefacegourd.jpg", title: "FarmConnect Mobile App", desc: "Cross-platform mobile app connecting farmers with buyers across Zimbabwe.", tag: "Mobile App" },
+  { image: "mobilefacegourd.jpg", title: "Security Auth", desc: "A security mobile app armed with facial recognition .", tag: "Mobile App" },
   { image: "analytics.jpg", title: "Corporate Dashboard", desc: "Real-time analytics dashboard for a leading financial services company.", tag: "Web App" },
 ];
 
@@ -368,12 +368,12 @@ function Contact() {
   const contactInfo = [
     { icon: "fa-location-dot", label: "Location", value: "Harare, Zimbabwe" },
     { icon: "fa-envelope", label: "Email", value: "info@bsoftdigital.co.zw" },
-    { icon: "fa-phone", label: "Phone", value: "+263 777 448 666" },
+    { icon: "fa-phone", label: "Phone", value: "+263 786 896 707" },
   ];
 
   const socials = [
-    { icon: "fa-facebook-f", href: "#" },
-    { icon: "fa-github", href: "#" },
+    { icon: "fa-facebook-f", href: "https://www.facebook.com/profile.php?id=61567557657926" },
+    { icon: "fa-github", href: "https://github.com/Ghost-Coder23" },
     { icon: "fa-linkedin-in", href: "#" },
     { icon: "fa-instagram", href: "#" },
   ];
