@@ -48,7 +48,7 @@ function Navigation() {
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-8">
           {links.map(l => (
-            <a key={l} href={`#${l.toLowerCase()}`} className="text-sm font-medium text-foreground hover:text-primary transition-colors">
+            <a key={l} href={`#${l.toLowerCase()}`} className="text-sm font-bold tracking-wide text-primary-dark hover:text-accent-green transition-colors">
               {l}
             </a>
           ))}
