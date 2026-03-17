@@ -42,7 +42,7 @@ function Navigation() {
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.jpg" alt="BsoftDigital" className="h-10 w-auto" />
-          <span className="font-heading font-bold text-xl text-primary">BsoftDigital</span>
+          <span className="font-heading font-bold text-xl text-primary"></span>
         </a>
 
         {/* Desktop links */}
