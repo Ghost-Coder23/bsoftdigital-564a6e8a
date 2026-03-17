@@ -41,7 +41,7 @@ function Navigation() {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo */}
         <a href="#home" className="flex items-center gap-2">
-          <i className="fa-solid fa-bolt text-accent-green text-2xl" />
+          <img src="/images/logo.jpg" alt="BsoftDigital" className="h-10 w-auto" />
           <span className="font-heading font-bold text-xl text-primary">BsoftDigital</span>
         </a>
 
@@ -269,9 +269,9 @@ function Pricing() {
    PORTFOLIO
    ═══════════════════════════════════════════ */
 const projects = [
-  { gradient: "linear-gradient(135deg, #667eea, #764ba2)", icon: "fa-cart-shopping", title: "SuperRutanz E-Commerce", desc: "Full-stack e-commerce platform with payment integration and inventory management.", tag: "Web Development" },
-  { gradient: "linear-gradient(135deg, #f093fb, #f5576c)", icon: "fa-mobile-screen-button", title: "FarmConnect Mobile App", desc: "Cross-platform mobile app connecting farmers with buyers across Zimbabwe.", tag: "Mobile App" },
-  { gradient: "linear-gradient(135deg, #4facfe, #00f2fe)", icon: "fa-building", title: "Corporate Dashboard", desc: "Real-time analytics dashboard for a leading financial services company.", tag: "Web App" },
+  { image: "portfolio1ecommerse.png", title: "SuperRutanz E-Commerce", desc: "Full-stack e-commerce platform with payment integration and inventory management.", tag: "Web Development" },
+  { image: "mobilefacegourd.jpg", title: "FarmConnect Mobile App", desc: "Cross-platform mobile app connecting farmers with buyers across Zimbabwe.", tag: "Mobile App" },
+  { image: "analytics.jpg", title: "Corporate Dashboard", desc: "Real-time analytics dashboard for a leading financial services company.", tag: "Web App" },
 ];
 
 function Portfolio() {
@@ -286,8 +286,12 @@ function Portfolio() {
           {projects.map((p, i) => (
             <FadeIn key={i}>
               <div className="bg-card rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
-                <div className="h-48 flex items-center justify-center" style={{ background: p.gradient }}>
-                  <i className={`fa-solid ${p.icon} text-white text-5xl`} />
+                <div className="h-48 overflow-hidden rounded-t-2xl">
+                  <img 
+                    src={`/images/${p.image}`} 
+                    alt={p.title}
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  />
                 </div>
                 <div className="p-6 text-left">
                   <h3 className="font-heading font-bold text-lg text-foreground mb-2">{p.title}</h3>
